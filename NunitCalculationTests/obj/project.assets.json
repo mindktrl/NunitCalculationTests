@@ -25,6 +25,23 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Faker.Net/2.0.154": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "compile": {
+          "lib/net60/Faker.Net.6.0.dll": {}
+        },
+        "runtime": {
+          "lib/net60/Faker.Net.6.0.dll": {}
+        },
+        "resource": {
+          "lib/net60/de-DE/Faker.Net.6.0.resources.dll": {
+            "locale": "de-DE"
+          }
+        }
+      },
       "Fare/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -371,7 +388,7 @@
           "build/netcoreapp2.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -1113,6 +1130,37 @@
         "coverlet.collector.nuspec"
       ]
     },
+    "Faker.Net/2.0.154": {
+      "sha512": "pkabhT7wxNR1gkPO6ga77XdeqBblaE8a1oY47eMGGvM7DMZ9S8ARZrKkRWaPUNjGCOqtH3oeQSMuEPxd98ir4w==",
+      "type": "package",
+      "path": "faker.net/2.0.154",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "faker.net.2.0.154.nupkg.sha512",
+        "faker.net.nuspec",
+        "lib/net452/Faker.Net.4.5.dll",
+        "lib/net452/de-DE/Faker.Net.4.5.resources.dll",
+        "lib/net462/Faker.Net.4.6.dll",
+        "lib/net462/de-DE/Faker.Net.4.6.resources.dll",
+        "lib/net472/Faker.Net.4.7.dll",
+        "lib/net472/de-DE/Faker.Net.4.7.resources.dll",
+        "lib/net48/Faker.Net.4.8.dll",
+        "lib/net48/de-DE/Faker.Net.4.8.resources.dll",
+        "lib/net50/Faker.Net.5.0.dll",
+        "lib/net50/de-DE/Faker.Net.5.0.resources.dll",
+        "lib/net60/Faker.Net.6.0.dll",
+        "lib/net60/de-DE/Faker.Net.6.0.resources.dll",
+        "lib/netcoreapp3.0/Faker.Net.Core.3.0.dll",
+        "lib/netcoreapp3.0/de-DE/Faker.Net.Core.3.0.resources.dll",
+        "lib/netcoreapp3.1/Faker.Net.Core.3.1.dll",
+        "lib/netcoreapp3.1/de-DE/Faker.Net.Core.3.1.resources.dll",
+        "lib/netstandard2.0/Faker.Net.Standard.2.0.dll",
+        "lib/netstandard2.0/de-DE/Faker.Net.Standard.2.0.resources.dll",
+        "lib/netstandard2.1/Faker.Net.Standard.2.1.dll",
+        "lib/netstandard2.1/de-DE/Faker.Net.Standard.2.1.resources.dll"
+      ]
+    },
     "Fare/2.1.1": {
       "sha512": "HaI8puqA66YU7/9cK4Sgbs1taUTP1Ssa4QT2PIzqJ7GvAbN1QgkjbRsjH+FSbMh1MJdvS0CIwQNLtFT+KF6KpA==",
       "type": "package",
@@ -1786,16 +1834,15 @@
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -1912,7 +1959,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -4200,6 +4247,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoFixture >= 4.18.0",
+      "Faker.Net >= 2.0.154",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
@@ -4249,6 +4297,10 @@
           "AutoFixture": {
             "target": "Package",
             "version": "[4.18.0, )"
+          },
+          "Faker.Net": {
+            "target": "Package",
+            "version": "[2.0.154, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

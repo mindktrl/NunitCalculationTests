@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj": {}
+    "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj": {}
   },
   "projects": {
-    "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj": {
+    "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
+        "projectUniqueName": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
         "projectName": "NunitCalculationTests",
-        "projectPath": "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
+        "projectPath": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
         "packagesPath": "C:\\Users\\benan\\.nuget\\packages\\",
-        "outputPath": "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\obj\\",
+        "outputPath": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "AutoFixture": {
               "target": "Package",
               "version": "[4.18.0, )"
+            },
+            "Faker.Net": {
+              "target": "Package",
+              "version": "[2.0.154, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",

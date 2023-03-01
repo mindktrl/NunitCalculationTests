@@ -99,3 +99,5 @@ C:\repo\NunitCalculationTests\NunitCalculationTests\obj\Debug\net6.0\NunitCalcul
 C:\repo\NunitCalculationTests\NunitCalculationTests\obj\Debug\net6.0\ref\NunitCalculationTests.dll
 C:\repo\NunitCalculationTests\NunitCalculationTests\bin\Debug\net6.0\AutoFixture.dll
 C:\repo\NunitCalculationTests\NunitCalculationTests\bin\Debug\net6.0\Fare.dll
+C:\repo\NunitCalculationTests\NunitCalculationTests\bin\Debug\net6.0\Faker.Net.6.0.dll
+C:\repo\NunitCalculationTests\NunitCalculationTests\bin\Debug\net6.0\de-DE\Faker.Net.6.0.resources.dll

@@ -12,8 +12,8 @@ namespace NunitCalculationTests
         [SetUp]
         public void Setup()
         {
-            _calculator = new Calculator();
             _fixture = new Fixture();
+            _calculator = _fixture.Create<Calculator>();
         }
 
         [Test]

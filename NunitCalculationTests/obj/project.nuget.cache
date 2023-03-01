@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vKCJpTvZbemZEpiUvnyGdFSCdt9zqeYyFY8fO/mfcuA6w5I5S8SWx8gKOphMdgcvr+hu7dhvSzFntoQDhTBqNA==",
+  "dgSpecHash": "sIdZ3k5kKXvmA7ZN0cj6jig2VD7NlYLE8aFbd23/8/wOWhLbUeeU07y3TTEgsdlpjSL/IAolrO7l8STUflw8nA==",
   "success": true,
-  "projectFilePath": "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
+  "projectFilePath": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benan\\.nuget\\packages\\autofixture\\4.18.0\\autofixture.4.18.0.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\benan\\.nuget\\packages\\faker.net\\2.0.154\\faker.net.2.0.154.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -14,7 +15,7 @@
     "C:\\Users\\benan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
-    "C:\\Users\\benan\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\benan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",

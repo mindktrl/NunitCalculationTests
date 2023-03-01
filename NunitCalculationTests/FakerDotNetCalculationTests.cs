@@ -1,10 +1,9 @@
-using NUnit.Framework;
+using Faker;
 
 namespace NunitCalculationTests
 {
-
     [TestFixture]
-    public class CalculationTests
+    public class FakerDotNetCalculationTests
     {
         private Calculator _calculator;
 
@@ -18,9 +17,9 @@ namespace NunitCalculationTests
         public void TestAddition()
         {
             // Arrange
-            int a = 10;
-            int b = 5;
-            int expectedResult = 15;
+            int a = RandomNumber.Next();
+            int b = RandomNumber.Next();
+            int expectedResult = _calculator.Add(a, b);
 
             // Act
             int actualResult = _calculator.Add(a, b);
@@ -33,9 +32,9 @@ namespace NunitCalculationTests
         public void TestSubtraction()
         {
             // Arrange
-            int a = 10;
-            int b = 5;
-            int expectedResult = 5;
+            int a = RandomNumber.Next();
+            int b = RandomNumber.Next();
+            int expectedResult = _calculator.Subtract(a, b);
 
             // Act
             int actualResult = _calculator.Subtract(a, b);
@@ -48,9 +47,9 @@ namespace NunitCalculationTests
         public void TestMultiplication()
         {
             // Arrange
-            int a = 10;
-            int b = 5;
-            int expectedResult = 50;
+            int a = RandomNumber.Next();
+            int b = RandomNumber.Next();
+            int expectedResult = _calculator.Multiply(a, b);
 
             // Act
             int actualResult = _calculator.Multiply(a, b);
@@ -63,9 +62,9 @@ namespace NunitCalculationTests
         public void TestDivision()
         {
             // Arrange
-            int a = 10;
-            int b = 5;
-            int expectedResult = 2;
+            int a = RandomNumber.Next();
+            int b = RandomNumber.Next();
+            int expectedResult = _calculator.Divide(a, b);
 
             // Act
             int actualResult = _calculator.Divide(a, b);
