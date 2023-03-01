@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m04fUdw0NKLbQ6xxqdSB6aAJNE7+Xyti1j//1H8bzQjT++bvBVmCwRE1oT2igbUfAC0fX4lm+cvdtc6GlveZww==",
+  "dgSpecHash": "vKCJpTvZbemZEpiUvnyGdFSCdt9zqeYyFY8fO/mfcuA6w5I5S8SWx8gKOphMdgcvr+hu7dhvSzFntoQDhTBqNA==",
   "success": true,
-  "projectFilePath": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
+  "projectFilePath": "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benan\\.nuget\\packages\\autofixture\\4.18.0\\autofixture.4.18.0.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

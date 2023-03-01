@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj": {}
+    "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj": {}
   },
   "projects": {
-    "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj": {
+    "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
+        "projectUniqueName": "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
         "projectName": "NunitCalculationTests",
-        "projectPath": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
+        "projectPath": "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
         "packagesPath": "C:\\Users\\benan\\.nuget\\packages\\",
-        "outputPath": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\obj\\",
+        "outputPath": "c:\\repo\\NunitCalculationTests\\NunitCalculationTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\benan\\AppData\\Roaming\\NuGet\\NuGet.Config",
