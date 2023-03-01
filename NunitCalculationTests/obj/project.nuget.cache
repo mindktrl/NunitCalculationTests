@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sIdZ3k5kKXvmA7ZN0cj6jig2VD7NlYLE8aFbd23/8/wOWhLbUeeU07y3TTEgsdlpjSL/IAolrO7l8STUflw8nA==",
+  "dgSpecHash": "OlvN9MEQHfd4W90mS0ehBpoaUP32Eo5yNNTqVlJicpoEseQ7edaukNy/JxUwo6wRgjzsoywJPKfPSC55stW4lQ==",
   "success": true,
   "projectFilePath": "C:\\repo\\NunitCalculationTests\\NunitCalculationTests\\NunitCalculationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benan\\.nuget\\packages\\autofixture\\4.18.0\\autofixture.4.18.0.nupkg.sha512",
+    "C:\\Users\\benan\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\faker.net\\2.0.154\\faker.net.2.0.154.nupkg.sha512",
     "C:\\Users\\benan\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",

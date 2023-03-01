@@ -19,6 +19,19 @@
           }
         }
       },
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "coverlet.collector/3.1.2": {
         "type": "package",
         "build": {
@@ -1077,6 +1090,25 @@
         "lib/netstandard2.0/AutoFixture.dll",
         "lib/netstandard2.0/AutoFixture.pdb",
         "lib/netstandard2.0/AutoFixture.xml"
+      ]
+    },
+    "Bogus/34.0.2": {
+      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "type": "package",
+      "path": "bogus/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.34.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "coverlet.collector/3.1.2": {
@@ -4247,6 +4279,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoFixture >= 4.18.0",
+      "Bogus >= 34.0.2",
       "Faker.Net >= 2.0.154",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NUnit >= 3.13.3",
@@ -4297,6 +4330,10 @@
           "AutoFixture": {
             "target": "Package",
             "version": "[4.18.0, )"
+          },
+          "Bogus": {
+            "target": "Package",
+            "version": "[34.0.2, )"
           },
           "Faker.Net": {
             "target": "Package",
