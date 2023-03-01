@@ -1,6 +1,3 @@
-using NUnit.Framework;
-using Bogus;
-
 namespace NunitCalculationTests
 {
     [TestFixture]

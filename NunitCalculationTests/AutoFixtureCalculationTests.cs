@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using AutoFixture;
 
 namespace NunitCalculationTests

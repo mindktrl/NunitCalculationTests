@@ -1,5 +1,3 @@
-using NUnit.Framework;
-
 namespace NunitCalculationTests
 {
 
