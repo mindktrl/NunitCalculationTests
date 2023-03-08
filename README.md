@@ -24,4 +24,6 @@ This allows the test to be more flexible and cover a wider range of inputs.
 
 The Setup method is used to create a new Fixture instance before each test method is run, ensuring that the test is fully isolated and repeatable.
 
-There is a class `FakerDotNetCalculationTests.cs` that uses `Faker.net`, and also `BogusCalculationTests` that uses `Bogus` to do the Test Data Generation
+There is a class `FakerDotNetCalculationTests.cs` that uses `Faker.net`, and also `BogusCalculationTests.cs` that uses `Bogus` to do the Test Data Generation
+
+This repo is meant to demonstrate using simple, concrete examples on how to setup and use 3 popular TDG tools: AutoFixture, Faker.net and Bogus
