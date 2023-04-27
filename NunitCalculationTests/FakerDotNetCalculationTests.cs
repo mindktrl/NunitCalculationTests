@@ -72,5 +72,34 @@ namespace NunitCalculationTests
             // Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+
+        [Test]
+        public void TestModulo()
+        {
+            // Arrange
+            int a = Faker.RandomNumber.Next();
+            int b = Faker.RandomNumber.Next(1, 100);
+            int expectedResult = _calculator.Modulo(a, b);
+
+            // Act
+            int actualResult = _calculator.Modulo(a, b);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+
+        [Test]
+        public void TestFactorial()
+        {
+            // Arrange
+            int a = Faker.RandomNumber.Next(1, 10);
+            int expectedResult = _calculator.Factorial(a);
+
+            // Act
+            int actualResult = _calculator.Factorial(a);
+
+            // Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
