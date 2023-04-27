@@ -1,6 +1,6 @@
-.vscode/
+.vs/
 bin/
 obj/
-.vs/
+.vscode/
 */Reports/
 global.json
